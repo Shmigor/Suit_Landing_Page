@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: yanone;
+    background-color: rgb(250, 248, 246);
 }
 
-@font-face {
+/* @font-face {
     font-family: yanone;
     src: url(yanone/YanoneKaffeesatz-Regular.ttf);
 }
@@ -14,7 +15,11 @@
     font-family: yanone;
     src: url(yanone/YanoneKaffeesatz-Bold.ttf);
     font-weight: bold;
-}
+} */
+
+
+
+/* header  */
 
 .header {
     display: flex;
@@ -50,6 +55,106 @@
     cursor: pointer;
 }
 
-#grad:hover {
+#gradient-btn:hover {
     background-image: linear-gradient(to right, rgba(203, 48,227), rgba(255, 168,78));
+}
+
+
+
+
+
+
+/* main container */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main-wrapper {
+    width: 1100px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* flex: 2; */
+    height: 405px;
+    width: 635px;
+    position: relative;
+}
+
+.main-btn {
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 220px;
+    height: 56px;
+    color: white;
+    background-color: rgb(23, 35, 57)
+}
+
+.main-btn:hover {
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 220px;
+    height: 56px;
+    color: black;
+    background-image: linear-gradient(to right, rgba(203, 48,227), rgba(255, 168,78));
+    cursor: pointer;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 72px;
+}
+
+#heading-absolute {
+    background-color: transparent;
+    position: absolute;
+    top: -50px;
+    right: -200px;
+}
+
+.main-paragraph {
+    opacity: 70%;
+}
+
+.main-middle-container {
+    height: 600px;
+    width: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* flex: 1; */
+    background-image: linear-gradient(to right, rgba(203, 48,227), rgba(255, 168,78));
+    border-radius: 30px;
+}
+
+.iphone-img {
+    height: 300px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+}
+
+.main-right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 190px;
+    height: 375px;
+    /* flex: 1; */
 }
