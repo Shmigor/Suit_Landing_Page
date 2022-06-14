@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yanone;
+}
+
+@font-face {
+    font-family: yanone;
+    src: url(yanone/YanoneKaffeesatz-Regular.ttf);
+}
+
+@font-face {
+    font-family: yanone;
+    src: url(yanone/YanoneKaffeesatz-Bold.ttf);
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-wrapper {
+    width: 1100px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-btn {
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 220px;
+    height: 56px;
+    background-color: white;
+}
+
+.header-btn:hover {
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 220px;
+    height: 56px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#grad:hover {
+    background-image: linear-gradient(to right, rgba(203, 48,227), rgba(255, 168,78));
+}
