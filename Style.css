@@ -47,16 +47,13 @@
 
 .header-btn:hover {
     font-size: 15px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     width: 220px;
     height: 56px;
-    background-color: white;
+    background-color: rgb(23, 35, 57);
     cursor: pointer;
-}
-
-#gradient-btn:hover {
-    background-image: linear-gradient(to right, rgba(203, 48,227), rgba(255, 168,78));
+    color: white;
 }
 
 
@@ -117,14 +114,11 @@
     font-weight: bold;
 }
 
-.heading {
-    font-size: 72px;
-}
-
 #heading-absolute {
+    font-size: 72px;
     background-color: transparent;
     position: absolute;
-    top: -50px;
+    top: -40px;
     right: -200px;
 }
 
@@ -143,6 +137,13 @@
     border-radius: 30px;
 }
 
+.path {
+    position: absolute;
+    top: -90px;
+    right: -150px;
+    background-color: transparent;
+}
+
 .iphone-img {
     height: 300px;
     width: 200px;
@@ -157,4 +158,111 @@
     width: 190px;
     height: 375px;
     /* flex: 1; */
+}
+
+
+
+
+/* section with a man with a phone */
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+}
+
+.section-wrapper {
+    width: 1100px;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    background-color: rgb(23, 35, 57);
+    position: absolute;
+    bottom: -50%;
+
+}
+
+#transparent-container {
+    background-color: transparent;
+    color: white;
+}
+
+.section-img1 {
+    height: 600px;
+    width: 375px;
+    padding-bottom: 30px;
+}
+
+.section-image-container2 {
+    position: relative;
+}
+
+.section-img2 {
+    position: absolute;
+    left: -100px;
+    top: -100px;
+}
+
+
+.section-text-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-right: 100px;
+}
+
+.section-heading {
+    font-size: 50px;
+}
+
+.section-paragraph1 {
+    font-weight: lighter;
+    opacity: 80%;
+    font-size: 15px;
+}
+
+.jeremy {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cmo {
+    font-size: 12px;
+}
+
+
+
+.footer {
+    height: 545px;
+    background-color: rgb(243, 237, 231);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+#footer-items-background {
+    background-color: transparent;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.copy-right {
+    font-size: 12px;
+}
+
+.icons:hover {
+    cursor: pointer;
 }
