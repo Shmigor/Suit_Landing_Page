@@ -140,7 +140,7 @@
 .path {
     position: absolute;
     top: -90px;
-    right: -150px;
+    right: 20px;
     background-color: transparent;
 }
 
@@ -171,6 +171,7 @@
     justify-content: center;
     height: 500px;
     position: relative;
+    border-radius: 20px;
 }
 
 .section-wrapper {
@@ -183,7 +184,7 @@
     background-color: rgb(23, 35, 57);
     position: absolute;
     bottom: -50%;
-
+    border-radius: 20px;
 }
 
 #transparent-container {
